@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+		
+		<atom:link href="http://www.thomasguesnon.fr/feed/rssfeed.xml" rel="self" type="application/rss+xml" />
+		
+        <title>Thomas Guesnon portfolio</title>
+        <link>http://www.thomasguesnon.fr</link>
+        <description>Thomas guesnon portfolio feed</description>
+		<item>
+            <title>Madon Font</title>
+            <link>http://www.thomasguesnon.fr/madon-font</link>
+            <guid isPermaLink="true">http://www.thomasguesnon.fr/madon-font</guid>
+            <description><![CDATA[<p><em>Madon</em> est un projet de police de caractère. Elle est principalement conçue pour fonctionner dans des interfaces graphiques de dispositifs embarqués (e.g. HUD ou tableau de bord).</p>
+	            <a href="http://www.thomasguesnon.fr/madon-font">
+	            <img src="http://www.thomasguesnon.fr/files/madon/madon_14.jpg" width="400" height="1462"/>
+	            </a>
+	            ]]>
+            </description>
+            <pubDate>Tue, 26 May 2015 19:00:00 GMT</pubDate>
+        </item>
+		<item>
+            <title>Tocoga</title>
+            <link>http://www.thomasguesnon.fr/tocoga-touch-control-guitar-amplifier</link>
+            <guid isPermaLink="true">http://www.thomasguesnon.fr/tocoga-touch-control-guitar-amplifier</guid>
+            <description><![CDATA[
+	            <p>Tocoga is a touch control guitar amplifier concept. It could give a complete and open workstation for the guitarist, but directly plugged into a tube amp with gorgeous speakers, just as a vintage one !</p>
+	            <a href="http://www.thomasguesnon.fr/page.php?titleraw=tocoga-touch-control-guitar-amplifier&title=Tocoga%20Touch%20Control%20Guitar%20Amplifier&thumb=files/thumbnails/tocoga.jpg<">
+	            <img src="http://www.thomasguesnon.fr/files/tocoga/thomas-guesnon-tocoga-touch_control_guitar_amplifier.png" width="400" height="1462"/>
+	            </a>
+	            ]]>
+            </description>
+            <pubDate>Wed, 18 Mar 2015 00:00:00 GMT</pubDate>
+        </item>
+		
+        <item>
+            <title>Lavomatic</title>
+            <link>http://www.thomasguesnon.fr/lavomatic</link>
+            <guid isPermaLink="true">http://www.thomasguesnon.fr/lavomatic</guid>
+            <description><![CDATA[
+	            <p>Série d'images prises dans des laveries automatiques des XVIIe et XVIIIe arrondissements parisiens</p>
+	            <a href="http://www.thomasguesnon.fr/page.php?titleraw=lavomatic&title=Lavomatic&thumb=files/thumbnails/lavomatic.jpg">
+	            <img src="http://www.thomasguesnon.fr/files/lavomatic/thomasguesnon_lavomatic_2.jpg" width="400" height="320"/>
+	            </a>
+	            ]]>
+            </description>
+            <pubDate>Wed, 18 Mar 2015 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

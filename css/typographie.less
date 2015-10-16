@@ -1,0 +1,315 @@
+@import url("variables.less");
+
+
+/* Default font settings.
+   The font-size percentage is of 16px. (0.8125 * 16px = 13px) */
+html {
+  font-size: 100.01%;
+}
+body {
+  font-size: 1em;
+  font-family: Proxima-Nova, Helvetica, Arial, serif;
+  line-height: 1.538em;
+}
+
+/* Headings
+-------------------------------------------------------------- */
+h1,
+h2,
+h3,
+h4
+{
+  font-family: Proxima-Nova-Bold, sans-serif;
+}
+h5,
+h6 {
+  font-family: Proxima-Nova, serif;
+}
+
+/* 26px interligné à 30px
+/* ---------
+*/
+h1 {
+  font-size: 1.2em;
+  line-height: 1.333em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: Proxima-Nova,sans-serif;
+  letter-spacing: 0.2em;
+}
+
+/* 23px interligné à 30px
+/* ---------
+*/
+h2 {
+  font-size: 1.2em;
+  line-height: 1.304em;
+  margin-bottom: @vrythme;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+
+/* 17px interligné à 20px 
+/* ---------
+*/
+
+h3 {
+  font-size: 1.308em;
+  line-height: 1.176em;
+  margin-bottom: 1.176em;
+}
+
+/* 15px interligné à 20px
+/* ---------
+*/
+h4 {
+  font-size: 1.154em;
+  line-height: 1.333em;
+  margin-bottom: 1.333em;
+}
+
+/* 13px interligné à 20px
+/* ---------
+*/
+h5 {
+  font-size: 1em;
+  margin-bottom: 1.538em;
+}
+h6 {
+  font-size: 1em;
+  margin-bottom: 1.538em ;
+}
+h1 img,
+h2 img,
+h3 img,
+h4 img,
+h5 img,
+h6 img {
+  margin: 0;
+}
+/* Text elements
+-------------------------------------------------------------- */
+p {
+  margin-bottom: 1.538em;
+}
+/*
+  These can be used to pull an image at the start of a paragraph, so
+  that the text flows around it (usage: <p><img class="left">Text</p>)
+ */
+.left {
+  float: left !important;
+}
+p .left {
+  margin: 1.5em 1.5em 1.5em 0;
+  padding: 0;
+}
+.right {
+  float: right !important;
+}
+p .right {
+  margin: 1.5em 0 1.5em 1.5em;
+  padding: 0;
+}
+
+/* Lists
+-------------------------------------------------------------- */
+li ul, li ol {
+  margin: 0;
+}
+ul, ol {
+  margin: 0 1.5em 1.5em 0;
+  padding-left: 1.5em;
+}
+ul {
+  list-style-type: disc;
+}
+ol {
+  list-style-type: decimal;
+}
+dl {
+  margin: 0 0 1.5em 0;
+}
+dl dt {
+  font-weight: bold;
+}
+dd {
+  margin-left: 1.5em;
+}
+
+
+
+
+/* Selection colours (easy to forget) */
+
+.dark{
+	::selection {
+	  background: @typoSecond;
+	  color: #FFF;
+	}
+	::-moz-selection {
+	  background: @typoSecond;
+	  color: #FFF;
+	}
+	img::selection {
+	  background: @typoSecond;
+	}
+	img::-moz-selection {
+	  background: @typoSecond;
+	}
+	body {
+	  -webkit-tap-highlight-color: @typoSecond;
+	}
+	
+	a:link, a:visited {
+	  color: @typoMain;
+	  text-decoration: underline;
+	  -webkit-transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
+	  -moz-transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
+	  -o-transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
+	  transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
+	}
+	a:focus, a:hover {
+	  color: @highlightMain;
+	  background: none;
+	}
+	a:active {
+	  color: @highlightMain;
+	}
+}
+.light{
+	::selection {
+	  background: @typoSecondLight;
+	  color: #FFF;
+	}
+	::-moz-selection {
+	  background: @typoSecondLight;
+	  color: #FFF;
+	}
+	img::selection {
+	  background: @typoSecondLight;
+	}
+	img::-moz-selection {
+	  background: @typoSecondLight;
+	}
+	body {
+	  -webkit-tap-highlight-color: @typoSecondLight;
+	}
+	
+	a:link, a:visited {
+	  color: @typoMainLight;
+	  text-decoration: underline;
+	  -webkit-transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
+	  -moz-transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
+	  -o-transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
+	  transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
+	}
+	a:focus, a:hover {
+	  color: @highlightMainLight;
+	  background: none;
+	}
+	a:active {
+	  color: @highlightMainLight;
+	}
+}
+
+
+/* Liens
+-------------------------------------------------------------- */
+h1 a:link,
+h2 a:link,
+h3 a:link,
+h4 a:link,
+h5 a:link,
+h6 a:link{
+	text-decoration: none;
+}
+
+
+
+/* COLOR SPECIFIC */
+/* Aucune autre référence à la couleur des éléments autre part */
+
+.light{
+	background: @backgroundLight;
+}
+.dark{
+	background: @background;
+}
+
+.dark #footer ul li a:hover{
+	background-color: rgba(255,255,255,0.05);
+}
+.light #footer ul li a:hover{
+	background-color: rgba(0,0,0,0.05);
+}
+
+
+
+.dark header #header-inner #logo a{
+	background: url(assets/eye_logo.svg) no-repeat;
+}
+.light header #header-inner #logo a{
+	background: url(assets/eye_logo_dark.svg) no-repeat;
+}
+
+.dark header #header-inner #navigation ul li{
+	border-bottom: 1px solid @typoThird;
+	a{
+		color: @typoSecond;
+	
+		&:hover{
+			color: @highlightMain;
+		}
+		&.active{
+			color: white;
+		}
+	}
+}
+.light header #header-inner #navigation ul li{
+	border-bottom: 1px solid @typoThirdLight;
+	a{
+		color: @typoSecondLight;
+	
+		&:hover{
+			color: @highlightMainLight;
+		}
+		&.active{
+			color: black;
+		}
+	}
+}
+
+.dark .page .node img{
+	background: @highlightMain;
+}
+.light .page .node img{
+	background: @highlightMainLight;
+}
+
+.light{color: @typoMainLight;}
+.dark{color: @typoMain;}
+
+.dark{
+	p{color: @typoSecond;}
+	h1{color: @typoMain;}
+	h2{color: @typoMain;}
+	h3{color: @typoMain;}
+	h4{color: @typoMain;}
+	h5{color: @typoMain;}
+	h6{color: @typoMain;}
+}
+.light{
+	p{color: @typoSecondLight;}
+	h1{color: @typoMainLight;}
+	h2{color: @typoMainLight;}
+	h3{color: @typoMainLight;}
+	h4{color: @typoMainLight;}
+	h5{color: @typoMainLight;}
+	h6{color: @typoMainLight;}
+}
+
+
+
+
+
+

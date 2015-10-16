@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projects>
+	<project tags="UI,graphic design">
+	    <id>24</id>
+        <title>Madon Font</title>
+        <titleraw>madon-font</titleraw>
+        <text><![CDATA[<p><em>Madon</em> est un projet de police de caractère. Elle est principalement conçue pour fonctionner dans des interfaces graphiques de dispositifs embarqués (e.g. HUD ou tableau de bord).</p>]]></text>
+        <images>
+            
+			<image width="800" height="600">files/madon/madon_03.jpg</image>
+			<image width="800" height="600">files/madon/madon_14.jpg</image>
+			<image width="800" height="600">files/madon/madon_06.jpg</image>
+			<image width="800" height="600">files/madon/madon_10.jpg</image>
+			<image width="800" height="600">files/madon/madon_12.jpg</image>
+        </images>
+        <thumb>files/thumbnails/madon.jpg</thumb>
+        <backgroundcolor>#000000</backgroundcolor>
+        <theme>dark</theme>
+    </project>
+    <project tags="UI">
+	    <id>23</id>
+        <title>Tocoga Touch Control Guitar Amplifier</title>
+        <titleraw>tocoga-touch-control-guitar-amplifier</titleraw>
+        <text><![CDATA[<p>Tocoga est un concept d’amplificateur de guitare contrôlé par une interface tactile. Il donne accès au guitariste à un outil puissant et ouvert, tout en étant relié directement à des lampes et à de vrais haut-parleurs, comme un ampli vintage !<br/><br/><em>Tocoga is a touch control guitar amplifier concept. It could give a complete and open workstation for the guitarist, but directly plugged into a tube amp with gorgeous speakers, just as a vintage one !</em></p><iframe src="https://player.vimeo.com/video/114712140?autoplay=1&loop=1&color=999999" width="800" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>]]></text>
+        <images>
+            <image width="800" height="2924">files/tocoga/thomas-guesnon-tocoga-touch_control_guitar_amplifier.png</image>
+        </images>
+        <thumb>files/thumbnails/tocoga.jpg</thumb>
+        <backgroundcolor>#000000</backgroundcolor>
+        <theme>dark</theme>
+    </project>
+    <project tags="graphic design">
+	    <id>22</id>
+        <title>Enoch Hardon @ La Rumeur</title>
+        <titleraw>enoch-hardon</titleraw>
+        <text><![CDATA[Affiche de concert pour <a href="http://enochardon.bandcamp.com/">Enoch Hardon</a>, <a href="https://wildanimalsmusic.bandcamp.com/releases">Wild Animals</a> et <a href="http://chavire.tumblr.com/">Chaviré</a> @ La Rumeur, Nantes]]></text>
+        <images>
+            <image width="800" height="1132">files/enoch-hardon/28mars_larumeur_couleur.png</image>
+        </images>
+        <thumb>files/thumbnails/enoch_hardon.jpg</thumb>
+        <backgroundcolor>#1E1F27</backgroundcolor>
+        <theme>dark</theme>
+    </project>
+    <project tags="graphic design">
+	    <id>21</id>
+        <title>Häshcut @ Café du Cinéma</title>
+        <titleraw>hashcut</titleraw>
+        <text><![CDATA[Affiche de concert pour <a href="http://hashcut.bandcamp.com">Häshcut</a> @ Café du Cinéma, Nantes]]></text>
+        <images>
+            <image width="800" height="1132">files/hashcut/hashcut_cafe_cinema.png</image>
+        </images>
+        <thumb>files/thumbnails/hashcut.jpg</thumb>
+        <backgroundcolor></backgroundcolor>
+        <theme>dark</theme>
+    </project>
+    <project tags="UI,graphic design">
+	    <id>25</id>
+        <title>Ecole Boulle</title>
+        <titleraw>ecole-boulle</titleraw>
+        <text><![CDATA[<p>Proposition graphique pour la refonte du site de l'Ecole Boulle. <br/>Made @ Hyptique - 2012</p>]]></text>
+        <images>
+            
+			<image width="800" height="537">files/ecole_boulle/ecole_b_03.png</image>
+			<image width="800" height="504">files/ecole_boulle/ecole_b_06.png</image>
+			<image width="800" height="565">files/ecole_boulle/ecole_b_08.png</image>
+        </images>
+        <thumb>files/thumbnails/ecole_boulle.jpg</thumb>
+        <backgroundcolor>#2b2c2f</backgroundcolor>
+        <theme>dark</theme>
+    </project>
+    <project tags="photo">
+	    <id>20</id>
+        <title>Saint-Nazaire</title>
+        <titleraw>saint-nazaire</titleraw>
+        <text />
+        <images>
+            <image width="800" height="533">files/saint-nazaire/02062014-thomasguesnon-3.jpg</image>
+            <image width="800" height="640">files/saint-nazaire/02062014-thomasguesnon-4.jpg</image>
+            <image width="800" height="600">files/saint-nazaire/02062014-thomasguesnon-5.jpg</image>
+            <image width="800" height="533">files/saint-nazaire/02062014-thomasguesnon-6.jpg</image>
+            <image width="800" height="533">files/saint-nazaire/02062014-thomasguesnon-7.jpg</image>
+            <image width="800" height="800">files/saint-nazaire/02062014-thomasguesnon-8.jpg</image>
+            <image width="800" height="600">files/saint-nazaire/02062014-thomasguesnon-9.jpg</image>
+            <image width="800" height="772">files/saint-nazaire/02062014-thomasguesnon-10.jpg</image>
+            <image width="800" height="766">files/saint-nazaire/02062014-thomasguesnon-11.jpg</image>
+        </images>
+        <thumb>files/thumbnails/saint-nazaire-thumbnail.jpg</thumb>
+        <backgroundcolor></backgroundcolor>
+        <theme>dark</theme>
+    </project>
+    <project tags="graphic design">
+	    <id>19</id>
+        <title>1944 Peleliu battle map</title>
+        <titleraw>1944-peleliu-battle-map</titleraw>
+        <text><![CDATA[Quelques détails de la carte de la bataille de Peleliu (septembre 1944).]]></text>
+        <images>
+            <image width="800" height="">files/peleliu_map/all.jpg</image>
+            <image width="800" height="">files/peleliu_map/close_01.jpg</image>
+            <image width="800" height="">files/peleliu_map/close_02.jpg</image>
+        </images>
+        <thumb>files/thumbnails/peleliu-battle-map-thumbnail.jpg</thumb>
+        <backgroundcolor>#FFFFFF</backgroundcolor>
+        <theme>light</theme>
+    </project>
+    <project tags="photo,Motion">
+	    <id>18</id>
+        <title>Beaugrenelle</title>
+        <titleraw>beaugrenelle</titleraw>
+        <titleraw />
+        <text><![CDATA[<p>Beaugrenelle seen from below is a video editing executed from shooting made in this fifteenth district neighborhood of Paris. The music was made by myself, with guitars.</p><iframe src="//player.vimeo.com/video/79562226?title=0&amp;byline=0&amp;portrait=0" width="800" height="450" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>]]></text>
+        <images>
+            <image width="800" height="">files/beaugrenelle/6c67039dd2abe4acd27034b1af1ea604.png</image>
+            <image width="800" height="">files/beaugrenelle/86c436609e1b17288352f9f35733dbbe.png</image>
+            <image width="800" height="">files/beaugrenelle/343a1f97021d360aea874e81e5cf14b1.png</image>
+            <image width="800" height="">files/beaugrenelle/8432387362f831e3eb7066156a6bf85c.png</image>
+            <image width="800" height="">files/beaugrenelle/ddac8379f593bfc2d3f60ea0a66a3b8e.png</image>
+        </images>
+        <thumb>files/thumbnails/beaugrenelle-thumbnail.jpg</thumb>
+        <backgroundcolor></backgroundcolor>
+        <theme>dark</theme>
+    </project>
+    <project tags="illustration">
+	    <id>17</id>
+        <title>Geometric drawings</title>
+        <titleraw>geometric-drawings</titleraw>
+        <text />
+        <images>
+            <image width="800" height="">files/geometric_drawings/2angles_3x3_obliques_rhythm.jpg</image>
+            <image width="800" height="">files/geometric_drawings/2angles_palmfrond_inspiration_0.jpg</image>
+            <image width="800" height="">files/geometric_drawings/3angles_0.jpg</image>
+            <image width="800" height="">files/geometric_drawings/4linesofarcs.jpg</image>
+            <image width="500" height="" align="right">files/geometric_drawings/symetric_story.jpg</image>
+            <image width="800" height="">files/geometric_drawings/triangles_meeting_0.jpg</image>
+        </images>
+        <thumb>files/thumbnails/geometric-thumbnail.jpg</thumb>
+        <backgroundcolor></backgroundcolor>
+        <theme>dark</theme>
+    </project>
+    <!--
+	<project tags="experiments">
+		<id>16</id>
+		<title>Labo</title>
+		<titleraw>labo</titleraw>
+		<text><![CDATA[]]></text>
+		<images>
+			<image width="800" height="">files/labo/-orage_01.jpg</image>
+			<image width="800" height="">files/labo/2_indolence.jpg</image>
+			<image width="800" height="">files/labo/2_jpeg_crash.jpg</image>
+			<image width="800" height="">files/labo/3_notes_typoguesnon_1.png</image>
+			<image width="800" height="">files/labo/5_route_au_matin.jpg</image>
+			<image width="800" height="">files/labo/5_volumes_etronnesque.png</image>
+			<image width="800" height="">files/labo/7_souche_et_tronc.jpg</image>
+			<image width="800" height="">files/labo/8_.jpg</image>
+			<image width="800" height="">files/labo/9_Lumiere.png</image>
+			<image width="800" height="">files/labo/9_webCubes.jpg</image>
+			<image width="800" height="">files/labo/10_121111_gs_1.jpg</image>
+			<image width="800" height="">files/labo/11_solide_bloc.jpg</image>
+			<image width="800" height="">files/labo/12_salon_de_mobile_2014_overview.png</image>
+			<image width="800" height="">files/labo/13_map_140415_2.jpg</image>
+			<image width="800" height="">files/labo/13_map_140415.jpg</image>
+		</images>
+		<thumb>files/thumbnails/labo-thumbnail.jpg</thumb>
+	<backgroundcolor></backgroundcolor>
+<theme>dark</theme>
+	</project>
+	-->
+    <project tags="photo">
+	    <id>15</id>
+        <title>Playground</title>
+        <titleraw>playground</titleraw>
+        <text />
+        <images>
+            <image width="800" height="">files/playground/IMG_4162.jpg</image>
+            <image width="800" height="">files/playground/IMG_8594-Modifier.jpg</image>
+            <image width="800" height="">files/playground/IMG_8845.jpg</image>
+            <image width="800" height="">files/playground/field.jpg</image>
+        </images>
+        <thumb>files/thumbnails/playground-thumbnail.jpg</thumb>
+        <backgroundcolor></backgroundcolor>
+        <theme>dark</theme>
+    </project>
+    <project tags="photo">
+	    <id>14</id>
+        <title>Rien</title>
+        <titleraw>rien</titleraw>
+        <text />
+        <images>
+            <image width="800" height="">files/rien/24112013-thomasguesnon.jpg</image>
+            <image width="800" height="">files/rien/23012014-thomasguesnon.jpg</image>
+            <image width="800" height="">files/rien/13102013-thomasguesnon.jpg</image>
+            <image width="800" height="">files/rien/30122013-thomasguesnon-3.jpg</image>
+            <image width="800" height="">files/rien/03052014-thomasguesnon.jpg</image>
+        </images>
+        <thumb>files/thumbnails/rien-thumbnail.jpg</thumb>
+        <backgroundcolor></backgroundcolor>
+        <theme>dark</theme>
+    </project>
+    <project tags="photo">
+	    <id>13</id>
+        <title>Country Roads</title>
+        <titleraw>orne</titleraw>
+        <text />
+        <images>
+            <image width="800" height="">files/orne/19042014-thomasguesnon.jpg</image>
+            <image width="800" height="">files/orne/IMG_8862.jpg</image>
+            <image width="800" height="">files/orne/IMG_8837.jpg</image>
+            <image width="800" height="">files/orne/IMG_8856.jpg</image>
+            <image width="800" height="">files/orne/06102013-thomasguesnon.jpg</image>
+            <image width="800" height="">files/orne/IMG_2110.jpg</image>
+            <image width="800" height="">files/orne/19042014-thomasguesnon-3.jpg</image>
+            <image width="800" height="">files/orne/IMG_8902.jpg</image>
+        </images>
+        <thumb>files/thumbnails/orne-thumbnail.jpg</thumb>
+        <backgroundcolor></backgroundcolor>
+        <theme>dark</theme>
+    </project>
+    <project tags="photo">
+	    <id>12</id>
+        <title>Airfield</title>
+        <titleraw>airfield</titleraw>
+        <text><![CDATA[Airfield shots at Bagnoles de l'Orne]]></text>
+        <images>
+            <image width="800" height="">files/airfield/IMG_8811.jpg</image>
+            <image width="800" height="">files/airfield/IMG_8816.jpg</image>
+        </images>
+        <thumb>files/thumbnails/airfield-thumbnail.jpg</thumb>
+        <backgroundcolor></backgroundcolor>
+        <theme>dark</theme>
+    </project>
+    <project tags="photo">
+	    <id>11</id>
+        <title>Buildings</title>
+        <titleraw>buildings</titleraw>
+        <text />
+        <images>
+            <image width="800" height="">files/buildings/beaugrenelle_trois.jpg</image>
+            <image width="800" height="">files/buildings/IMG_0343.jpg</image>
+            <image width="800" height="">files/buildings/IMG_7873.jpg</image>
+            <image width="800" height="">files/buildings/IMG_8213.jpg</image>
+            <image width="800" height="">files/buildings/09042014-thomasguesnon.jpg</image>
+            <image width="800" height="">files/buildings/11042014-thomasguesnon.jpg</image>
+            <image width="800" height="">files/buildings/13102013-thomasguesnon-3.jpg</image>
+            <image width="800" height="">files/buildings/13102013-thomasguesnon-4.jpg</image>
+            <image width="800" height="">files/buildings/24042012-thomasguesnon.jpg</image>
+            <image width="800" height="">files/buildings/26042012-thomasguesnon.jpg</image>
+            <image width="800" height="">files/buildings/28032012-thomasguesnon.jpg</image>
+        </images>
+        <thumb>files/thumbnails/buildings-thumbnail.jpg</thumb>
+        <backgroundcolor></backgroundcolor>
+        <theme>dark</theme>
+    </project>
+    <!--
+    <project tags="graphic design">
+    	<id>10</id>
+        <title>Ball Breaking</title>
+        <titleraw>ball-breaking</titleraw>
+        <text><![CDATA[Faut pas trop nous les briser non plus !]]></text>
+        <images>
+            <image width="800" height="">files/ball_breaking/InternationalBallBreakingDay_3-01.png</image>
+        </images>
+        <thumb>files/thumbnails/ball-breaking-thumbnail.jpg</thumb>
+        <backgroundcolor></backgroundcolor>
+        <theme>dark</theme>
+    </project>
+    -->
+    <project tags="illustration">
+	    <id>9</id>
+        <title>Jour de marché</title>
+        <titleraw>jour-de-marche</titleraw>
+        <text />
+        <images>
+            <image width="800" height="">files/jour_de_marche/jour_de_marche.jpg</image>
+        </images>
+        <thumb>files/thumbnails/jour-de-marche-thumbnail.jpg</thumb>
+        <backgroundcolor></backgroundcolor>
+        <theme>dark</theme>
+    </project>
+    <project tags="photo">
+	    <id>8</id>
+        <title>Mobile Home</title>
+        <titleraw>mobile-home</titleraw>
+        <text />
+        <images>
+            <image width="800" height="">files/mobile-home/01062014-thomasguesnon-2.jpg</image>
+            <image width="500" height="" align="right">files/mobile-home/01062014-thomasguesnon-3.jpg</image>
+            <image width="800" height="">files/mobile-home/01062014-thomasguesnon.jpg</image>
+            <image width="800" height="">files/mobile-home/02062014-thomasguesnon-2.jpg</image>
+            <image width="500" height="" align="left">files/mobile-home/02062014-thomasguesnon.jpg</image>
+        </images>
+        <thumb>files/thumbnails/mobile-home-thumbnail.jpg</thumb>
+        <backgroundcolor></backgroundcolor>
+        <theme>dark</theme>
+    </project>
+    <project tags="photo">
+	    <id>7</id>
+        <title>Camera</title>
+        <titleraw>camera</titleraw>
+        <text />
+        <images>
+            <image width="800" height="">files/camera/camera.jpg</image>
+        </images>
+        <thumb>files/thumbnails/camera-thumbnail.jpg</thumb>
+        <backgroundcolor></backgroundcolor>
+        <theme>dark</theme>
+    </project>
+    <project tags="illustration,graphic design">
+	    <id>6</id>
+        <title>Mieux</title>
+        <titleraw>mieux</titleraw>
+        <text />
+        <images>
+            <image width="800" height="">files/mieux/mieux.jpg</image>
+        </images>
+        <thumb>files/thumbnails/mieux-thumbnail.jpg</thumb>
+        <backgroundcolor></backgroundcolor>
+        <theme>dark</theme>
+    </project>
+    <project tags="photo,illustration">
+	    <id>5</id>
+        <title>Structure</title>
+        <titleraw>structure</titleraw>
+        <text />
+        <images>
+            <image width="800" height="">files/structure/structure1.jpg</image>
+        </images>
+        <thumb>files/thumbnails/structure1-thumbnail.jpg</thumb>
+        <backgroundcolor></backgroundcolor>
+        <theme>dark</theme>
+    </project>
+    <project tags="photo">
+	    <id>4</id>
+        <title>People</title>
+        <titleraw>people</titleraw>
+        <text />
+        <images>
+            <image width="800" height="">files/people/IMG_1061.jpg</image>
+            <image width="800" height="">files/chien/chien.jpg</image>
+            <image width="800" height="">files/people/IMG_0173.jpg</image>
+            <image width="800" height="">files/people/IMG_0516.jpg</image>
+            <image width="800" height="">files/people/25052014-thomasguesnon-2.jpg</image>
+            <image width="800" height="">files/people/IMG_0964.jpg</image>
+        </images>
+        <thumb>files/thumbnails/people-thumbnail.jpg</thumb>
+        <backgroundcolor></backgroundcolor>
+        <theme>dark</theme>
+    </project>
+    <project tags="illustration">
+	    <id>3</id>
+        <title>CCCC</title>
+        <titleraw>ccccc</titleraw>
+        <text />
+        <images>
+            <image width="800" height="">files/cccc/CCCC.jpg</image>
+        </images>
+        <thumb>files/thumbnails/cccc-thumbnail.jpg</thumb>
+        <backgroundcolor></backgroundcolor>
+        <theme>dark</theme>
+    </project>
+    <project tags="photo">
+	    <id>2</id>
+        <title>Lavomatic</title>
+        <titleraw>lavomatic</titleraw>
+        <text />
+        <images>
+            <image width="800" height="640">files/lavomatic/thomasguesnon_lavomatic_1.jpg</image>
+            <image width="800" height="640">files/lavomatic/thomasguesnon_lavomatic_2.jpg</image>
+            <image width="800" height="640">files/lavomatic/thomasguesnon_lavomatic_3.jpg</image>
+            <image width="800" height="640">files/lavomatic/thomasguesnon_lavomatic_4.jpg</image>
+            <image width="800" height="640">files/lavomatic/thomasguesnon_lavomatic_5.jpg</image>
+        </images>
+        <thumb>files/thumbnails/lavomatic.jpg</thumb>
+        <backgroundcolor></backgroundcolor>
+        <theme>light</theme>
+    </project>
+    <project tags="illustration,photo">
+	    <id>1</id>
+        <title>Vision urbaine</title>
+        <titleraw>vision-urbaine</titleraw>
+        <text />
+        <images>
+            <image width="800" height="">files/vision_urbaine/vision_urbaine.jpg</image>
+        </images>
+        <thumb>files/thumbnails/vision-urbaine-thumbnail.jpg</thumb>
+        <backgroundcolor></backgroundcolor>
+        <theme>dark</theme>
+    </project>
+    <project tags="illustration">
+	    <id>0</id>
+        <title>Instant polonais</title>
+        <titleraw>instant-polonais</titleraw>
+        <text />
+        <images>
+            <image width="800" height="">files/instant_polonais/instant_polonais.jpg</image>
+        </images>
+        <thumb>files/thumbnails/instant-polonais-thumbnail.jpg</thumb>
+        <backgroundcolor></backgroundcolor>
+        <theme>dark</theme>
+    </project>
+</projects>

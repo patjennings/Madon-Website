@@ -1,0 +1,260 @@
+@import url("variables.less");
+
+.width (@cols:1) {
+	width: (@cols * (@column + @gutter) - @gutter) / @em;
+}
+
+body{
+	padding: 0;
+	margin:0;
+	overflow-x: hidden;
+}
+
+header{
+	
+	width: 100%;
+	clear: both;
+	display: block;
+	overflow: hidden;	
+	margin-bottom: @vrythme;
+	
+	#header-inner{
+		margin: @vrythme;
+	
+	
+		#logo{
+		
+			//width: 230px;
+			float:left;
+			
+			h2{
+				text-indent: -9999px;
+			}
+			
+			a{
+				
+				width: 82px;
+				height: 82px;
+				display: block;
+				margin: @vrythme/2 0;
+			}
+		}
+		
+		#navigation{
+			//width: 230px;
+			float:left;
+			
+			ul{
+				list-style: none;
+				margin: 0;
+				padding: 0;	
+				
+				li{
+					margin: 0;
+					padding: 0;
+					
+					a{
+						
+						text-decoration: none;
+						font-size: 0.8em;
+						display: block;
+						line-height: 0.8em;
+						padding: @vrythme/2 0;
+						
+						&.active{
+							font-family: Proxima-Nova-Bold;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+.view-mosaic{
+	
+	clear: both;
+	
+	/* trick pour garder le rythme vertical */
+	.views-row{
+		float:left;
+		background: #000;
+		margin: 0;
+		padding: 0;
+		width: 25%;
+		height: width;
+		height: 180px;
+		
+		.views-field{
+		
+			height: 100%;
+			
+			.field-content{
+			
+				height: 100%;
+				
+				a{
+					 display: block;
+					 width: 100%;
+					 height: 100%;
+					 position: relative;
+					 
+					 -webkit-transition: opacity 0.1s ease-in-out;
+					 -moz-transition: opacity 0.1s ease-in-out;
+					 -o-transition: opacity 0.1s ease-in-out;
+					 transition: opacity 0.1s ease-in-out;
+					 
+					
+					#wrapper{
+						
+						position: absolute;
+						
+						top: 0;
+						left: 0;
+						width: 100%;
+						height: 100%;
+						
+						
+/* 						background: -webkit-linear-gradient(#a0e21a 0%, #ffffff 100%); */
+						
+									
+						z-index: 100;
+						opacity: 0;
+		
+						display: table;
+						
+						-webkit-transition: opacity 0.25s ease-in-out;
+						 -moz-transition: opacity 0.25s ease-in-out;
+						 -o-transition: opacity 0.25s ease-in-out;
+						 transition: opacity 0.25s ease-in-out;
+						 
+						 #title-panel{
+						 
+						 	display: table-cell;
+						 	vertical-align: middle;
+						 	padding: 0 @vrythme;
+						 	
+							 
+							 h3.node-title{
+								text-align: center;
+								color: #FFF;
+								font-family: Proxima-Nova, sans-serif;
+								text-transform: uppercase;
+								font-size: 0.85em;
+								letter-spacing: 0.2em;
+								
+							}
+						 }
+						
+						
+					}
+					
+					img{
+						margin: 0;
+						padding: 0;
+						border: 0;
+						position: relative;
+						width: 100%;
+/* 						z-index: 0; */
+						
+						-webkit-transition: opacity 0.1s ease-in-out;
+						 -moz-transition: opacity 0.1s ease-in-out;
+						 -o-transition: opacity 0.1s ease-in-out;
+						 transition: opacity 0.1s ease-in-out;
+					}
+					
+					&:hover{
+						
+						
+						#wrapper{
+							opacity: 1;
+						}
+						
+						img{
+							opacity: 0.5;
+						}						
+					}					
+				}
+			}
+		}
+	}
+}
+
+
+.page{
+	
+	.node{
+		width: 100%;
+		padding-top: @vrythme*2;
+		
+		h1{
+			text-align: center;
+		}
+		
+		p{
+			text-align: center;
+			width: 550px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		.node-inner{
+			width: 800px;
+			margin: 0 auto;
+			margin-bottom: @vrythme*4;
+		}
+		
+		img{
+			margin-bottom: @vrythme*4;
+			border: 0;
+			
+			.left{
+				float: left;
+			}
+			.right{
+				float: right;
+			}
+		}
+	}
+}
+
+#footer{
+	width: 100%;
+	clear: both;
+	
+	font-size: 0.8em;
+	overflow: auto;
+	
+	ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		
+		li{
+			float: left;
+			
+			a{
+				text-decoration: none;
+				padding: @vrythme; 
+				display: block;
+				margin: 0;
+				
+				
+				&:hover{
+					
+					
+					-webkit-transition: background 0.1s ease-in-out;
+				    -moz-transition: background 0.1s ease-in-out;
+				    -o-transition: background 0.1s ease-in-out;
+				    transition: background 0.1s ease-in-out;
+				}
+			}
+		}
+		
+	}
+}
+
+
