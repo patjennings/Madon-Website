@@ -1,0 +1,10 @@
+Options +FollowSymlinks
+
+# Turn on URL rewriting
+RewriteEngine on
+RewriteRule info info.php [L]
+RewriteRule ^([a-zA-Z0-9\-]+)$ page.php?titleraw=$1  [QSA,L]
+
+#RewriteRule ^tag/([a-zA-Z0-9\-]+)$ index.php?tag=$1  [QSA,L]
+
+SetEnv PHP_VER 5_4
