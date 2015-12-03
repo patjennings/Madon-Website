@@ -10,7 +10,7 @@ It is powered with PHP.
 
 	<?xml version=« 1.0 » encoding=« UTF-8 »?>
 	<items>
-		<item type=« text » tags=« Maps / Data visualisation »>
+		<item type=« project » tags=« Maps / Data visualisation »>
 	    		<id>28</id>
         		<title>About</title>
 			<titleraw>about</titleraw>
