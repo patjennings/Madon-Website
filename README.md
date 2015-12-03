@@ -37,11 +37,11 @@ It is powered with PHP.
 
 ## Include simple articles written with Markdown
 
-	<item **type=« text »** tags=« Maps / Data visualisation »>
+	<item type=« text » tags=« Maps / Data visualisation »>
 	    <id>28</id>
         <title>About</title>
         <titleraw>about</titleraw>
-        <text>**files/about.md**</text>
+        <text>files/about.md</text>
         <thumb>files/thumbnails/text_default.png</thumb>
         <backgroundcolor></backgroundcolor>
         <theme>dark</theme>
