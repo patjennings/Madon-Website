@@ -17,9 +17,9 @@
 				
 				$tags = array();
 				
-				foreach($xml->project as $project) {  
+				foreach($xml->item as $item) {  
 					
-					$mytag = $project['tags'];
+					$mytag = $item['tags'];
 					
 					$mytags = explode(",", $mytag);
 									
@@ -37,7 +37,7 @@
 				
 				$output = "<ul>";
 				
-				//all projects
+				//all items
 				if(empty($_GET))
 				{
 					$output .= "<li><a href='".$basepath."index.php' class='active'>All</a></li>";

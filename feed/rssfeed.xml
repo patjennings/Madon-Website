@@ -7,6 +7,18 @@
         <title>Thomas Guesnon portfolio</title>
         <link>http://www.thomasguesnon.fr</link>
         <description>Thomas guesnon portfolio feed</description>
+        <item>
+            <title>OpenStreetMap style</title>
+            <link>http://www.thomasguesnon.fr/madon-font</link>
+            <guid isPermaLink="true">http://www.thomasguesnon.fr/madon-font</guid>
+            <description><![CDATA[<p>Ce thème de carte basé sur les données d'OpenStreetMap pousse l'intention de styler des informations de cartes sur un fond sombre. </p>
+	            <a href="http://www.thomasguesnon.fr/openstreetmap-style">
+	            <img src="http://www.thomasguesnon.fr/files/osm_style/openstreetmap_style_0003_view-1.jpg" width="800" height="600"/>
+	            </a>
+	            ]]>
+            </description>
+            <pubDate>Thu, 12 Nov 2015 09:00:00 GMT</pubDate>
+        </item>
 		<item>
             <title>Madon Font</title>
             <link>http://www.thomasguesnon.fr/madon-font</link>

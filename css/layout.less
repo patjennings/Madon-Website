@@ -16,7 +16,7 @@ header{
 	clear: both;
 	display: block;
 	overflow: hidden;	
-	margin-bottom: @vrythme;
+	margin-bottom: 48px;
 	
 	#header-inner{
 		margin: @vrythme;
@@ -62,7 +62,7 @@ header{
 						padding: @vrythme/2 0;
 						
 						&.active{
-							font-family: Proxima-Nova-Bold;
+							font-family: Nitti-Bold;
 						}
 					}
 				}
@@ -79,6 +79,7 @@ header{
 	clear: both;
 	
 	/* trick pour garder le rythme vertical */
+	
 	.views-row{
 		float:left;
 		background: #000;
@@ -108,7 +109,7 @@ header{
 					 transition: opacity 0.1s ease-in-out;
 					 
 					
-					#wrapper{
+					.wrapper{
 						
 						position: absolute;
 						
@@ -131,7 +132,7 @@ header{
 						 -o-transition: opacity 0.25s ease-in-out;
 						 transition: opacity 0.25s ease-in-out;
 						 
-						 #title-panel{
+						 .title-panel{
 						 
 						 	display: table-cell;
 						 	vertical-align: middle;
@@ -141,9 +142,9 @@ header{
 							 h3.node-title{
 								text-align: center;
 								color: #FFF;
-								font-family: Proxima-Nova, sans-serif;
+								font-family: Nitti-Normal, sans-serif;
 								text-transform: uppercase;
-								font-size: 0.85em;
+								font-size: 1em;
 								letter-spacing: 0.2em;
 								
 							}
@@ -169,7 +170,7 @@ header{
 					&:hover{
 						
 						
-						#wrapper{
+						.wrapper{
 							opacity: 1;
 						}
 						
@@ -188,21 +189,31 @@ header{
 	
 	.node{
 		width: 100%;
-		padding-top: @vrythme*2;
+		padding-top: @vrythme;
 		
-		h1{
-			text-align: center;
-		}
 		
-		p{
-			text-align: center;
-			width: 550px;
-			margin-left: auto;
-			margin-right: auto;
-		}
-		
-		.node-inner{
+		.node-inner-600{
+			width: 600px;
+			margin: 0 auto;
+			margin-bottom: @vrythme*4;
+		}		
+		.node-inner-800{
 			width: 800px;
+			margin: 0 auto;
+			margin-bottom: @vrythme*4;
+		}
+		.node-inner-1000{
+			width: 1000px;
+			margin: 0 auto;
+			margin-bottom: @vrythme*4;
+		}
+		.node-inner-1200{
+			width: 1200px;
+			margin: 0 auto;
+			margin-bottom: @vrythme*4;
+		}
+		.node-inner-1400{
+			width: 1400px;
 			margin: 0 auto;
 			margin-bottom: @vrythme*4;
 		}
@@ -218,6 +229,20 @@ header{
 				float: right;
 			}
 		}
+	}
+}
+
+.type-project{
+	
+	h1{
+		text-align: center;
+	}
+	
+	p{
+		text-align: center;
+		//width: 550px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 

@@ -29,7 +29,7 @@
     <?php require_once("includes/analyticstracking.php"); ?>
 	</head>
 	
-		<body class="page dark" >
+		<body class="page dark type-text" >
 		
 		<?php include("views/header.php"); ?>
 		
@@ -41,9 +41,9 @@
 					<p class='infos'>Je suis designer <strike>graphique</strike>&nbsp;<strike>d&apos;interface</strike>&nbsp;<strike>motion</strike>&nbsp;<strike>d&apos;interaction</strike>. Je travaille sur des interfaces graphiques pour des supports mobiles ou embarqu&eacute;s. <br/>
 Fondu de typo, je n&apos;h&eacute;site pas &agrave; ouvrir mon IDE ou mon logiciel 3D pour mod&eacute;liser une id&eacute;e. <br/>
 Je vis et travaille &agrave; Nantes depuis 2014.</p>
-					<p class='infos' style="font-style: italic;">I am a <strike>graphic</strike>&nbsp;<strike>UI</strike>&nbsp;<strike>motion</strike>&nbsp;<strike>UX</strike> designer. I work on GUIs for mobiles devices  or embedded devices. <br/>
+					<p class='infos'><em>I am a <strike>graphic</strike>&nbsp;<strike>UI</strike>&nbsp;<strike>motion</strike>&nbsp;<strike>UX</strike> designer. I work on GUIs for mobiles devices  or embedded devices. <br/>
 I love typography. I'm used to open my IDE or a CGI software in order to visualize an idea. <br/>
-I live and work in Nantes since 2014</p>
+I live and work in Nantes since 2014.</em></p>
 				</div>
 			</div> <!-- /node-inner -->
 		</div> <!-- /node-->

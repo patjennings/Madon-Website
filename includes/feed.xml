@@ -1,10 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<projects>
-	<project tags="UI,graphic design">
+<items>
+	<item type="text" tags="Maps / Data visualisation">
+	    <id>28</id>
+        <title>About</title>
+        <titleraw>about</titleraw>
+        <text>files/about.md</text>
+        <thumb>files/thumbnails/text_default.png</thumb>
+        <backgroundcolor></backgroundcolor>
+        <theme>dark</theme>
+		<width>600</width>
+		<date></date>
+    </item>
+    <!--<item type="text" tags="Maps / Data visualisation">
+	    <id>28</id>
+        <title>Sample</title>
+        <titleraw>sample</titleraw>
+        <text>files/sample.md</text>
+        <thumb>files/thumbnails/text_default.png</thumb>
+        <backgroundcolor></backgroundcolor>
+        <theme>light</theme>
+		<width>600</width>
+		<date></date>
+    </item>-->
+	<item type="project" tags="Maps / Data visualisation">
+	    <id>25</id>
+        <title>OpenStreetMap style</title>
+        <titleraw>openstreetmap-style</titleraw>
+        <text><![CDATA[Avec ce thème de carte (basé sur les données d'OpenStreetMap), l&apos;intention de traiter des informations de cartes sur un fond sombre est poussée à l&apos;extrême. <br/>Un contraste fort entre le fond et les informations textuelles et graphiques est mis en place : les éléments physiques (eau, terrain, forêts, constructions) apparaissent en faible luminosité, les noms de villes, rues, routes se détachent en pointes lumineuses.<br/><br/>	<iframe width="800" height="500" frameBorder="0" src="https://a.tiles.mapbox.com/v4/kikirouflaquette.ee5700ea.html?access_token=pk.eyJ1Ijoia2lraXJvdWZsYXF1ZXR0ZSIsImEiOiJwaGFJdjRVIn0.qeKvB8EdrtcXwbcalsoffg"></iframe><br/><br/><br/>]]></text>
+        <thumb>files/thumbnails/osm_style.jpg</thumb>
+        <images>
+            
+			<image width="800" height="600">files/osm_style/openstreetmap_style_0003_view-1.jpg</image>
+			<image width="800" height="600">files/osm_style/openstreetmap_style_0002_view-2.jpg</image>
+			<image width="800" height="600">files/osm_style/openstreetmap_style_0001_view-3.jpg</image>
+			<image width="800" height="600">files/osm_style/openstreetmap_style_0000_view-4.jpg</image>
+        </images>
+        <backgroundcolor>#0b0b13</backgroundcolor>
+        <theme>dark</theme>
+		<width>800</width>
+		<date></date>
+    </item>
+	<item type="project" tags="UI,graphic design">
 	    <id>24</id>
         <title>Madon Font</title>
         <titleraw>madon-font</titleraw>
-        <text><![CDATA[<p><em>Madon</em> est un projet de police de caractère. Elle est principalement conçue pour fonctionner dans des interfaces graphiques de dispositifs embarqués (e.g. HUD ou tableau de bord).</p>]]></text>
+        <text><![CDATA[<em>Madon</em> est un projet de police de caractère. Elle est principalement conçue pour fonctionner dans des interfaces graphiques de dispositifs embarqués (e.g. HUD ou tableau de bord).<br/><br/>]]></text>
         <images>
             
 			<image width="800" height="600">files/madon/madon_03.jpg</image>
@@ -16,20 +56,24 @@
         <thumb>files/thumbnails/madon.jpg</thumb>
         <backgroundcolor>#000000</backgroundcolor>
         <theme>dark</theme>
-    </project>
-    <project tags="UI">
+		<width>800</width>
+		<date></date>
+    </item>
+    <item type="project" tags="UI">
 	    <id>23</id>
         <title>Tocoga Touch Control Guitar Amplifier</title>
         <titleraw>tocoga-touch-control-guitar-amplifier</titleraw>
-        <text><![CDATA[<p>Tocoga est un concept d’amplificateur de guitare contrôlé par une interface tactile. Il donne accès au guitariste à un outil puissant et ouvert, tout en étant relié directement à des lampes et à de vrais haut-parleurs, comme un ampli vintage !<br/><br/><em>Tocoga is a touch control guitar amplifier concept. It could give a complete and open workstation for the guitarist, but directly plugged into a tube amp with gorgeous speakers, just as a vintage one !</em></p><iframe src="https://player.vimeo.com/video/114712140?autoplay=1&loop=1&color=999999" width="800" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>]]></text>
+        <text><![CDATA[Tocoga est un concept d&apos;amplificateur de guitare contrôlé par une interface tactile. Il donne accès au guitariste à un outil puissant et ouvert, tout en étant relié directement à des lampes et à de vrais haut-parleurs, comme un ampli vintage !<br/><br/><em>Tocoga is a touch control guitar amplifier concept. It could give a complete and open workstation for the guitarist, but directly plugged into a tube amp with gorgeous speakers, just as a vintage one !</em><br/><br/><br/><br/><iframe src="https://player.vimeo.com/video/114712140?autoplay=1&loop=1&color=999999" width="800" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>]]></text>
         <images>
             <image width="800" height="2924">files/tocoga/thomas-guesnon-tocoga-touch_control_guitar_amplifier.png</image>
         </images>
         <thumb>files/thumbnails/tocoga.jpg</thumb>
         <backgroundcolor>#000000</backgroundcolor>
         <theme>dark</theme>
-    </project>
-    <project tags="graphic design">
+		<width>800</width>
+		<date></date>
+    </item>
+    <item type="project" tags="graphic design">
 	    <id>22</id>
         <title>Enoch Hardon @ La Rumeur</title>
         <titleraw>enoch-hardon</titleraw>
@@ -40,8 +84,10 @@
         <thumb>files/thumbnails/enoch_hardon.jpg</thumb>
         <backgroundcolor>#1E1F27</backgroundcolor>
         <theme>dark</theme>
-    </project>
-    <project tags="graphic design">
+		<width>800</width>
+		<date></date>
+    </item>
+    <item type="project" tags="graphic design">
 	    <id>21</id>
         <title>Häshcut @ Café du Cinéma</title>
         <titleraw>hashcut</titleraw>
@@ -52,12 +98,14 @@
         <thumb>files/thumbnails/hashcut.jpg</thumb>
         <backgroundcolor></backgroundcolor>
         <theme>dark</theme>
-    </project>
-    <project tags="UI,graphic design">
+		<width>800</width>
+		<date></date>
+    </item>
+    <item type="project" tags="UI,graphic design">
 	    <id>25</id>
         <title>Ecole Boulle</title>
         <titleraw>ecole-boulle</titleraw>
-        <text><![CDATA[<p>Proposition graphique pour la refonte du site de l'Ecole Boulle. <br/>Made @ Hyptique - 2012</p>]]></text>
+        <text><![CDATA[<p>Proposition graphique pour la refonte du site de l&apos;Ecole Boulle. <br/>Made @ Hyptique - 2012</p>]]></text>
         <images>
             
 			<image width="800" height="537">files/ecole_boulle/ecole_b_03.png</image>
@@ -67,8 +115,27 @@
         <thumb>files/thumbnails/ecole_boulle.jpg</thumb>
         <backgroundcolor>#2b2c2f</backgroundcolor>
         <theme>dark</theme>
-    </project>
-    <project tags="photo">
+		<width>800</width>
+		<date></date>
+    </item>
+    <item type="project" tags="UI,graphic design">
+	    <id>26</id>
+        <title>Centre national du livre</title>
+        <titleraw>centre-national-livre</titleraw>
+        <text><![CDATA[<p>Proposition graphique pour la refonte du site du Centre National du Livre. 
+Made @ Hyptique - 2012</p>]]></text>
+        <thumb>files/thumbnails/cnl.jpg</thumb>
+        <images>
+            
+			<image width="1200" height="2645">files/cnl/111210_cnl_2-home_ro.png</image>
+			<image width="1200" height="1320">files/cnl/111210_cnl_5-fiche.png</image>
+        </images>
+        <backgroundcolor>#f0efe7</backgroundcolor>
+        <theme>light</theme>
+		<width>1200</width> <!-- 800, 1000, 1200 ou 1400. Les autres largeurs ne sont pas gérées. -->
+		<date></date>
+    </item>
+    <item type="project" tags="photo">
 	    <id>20</id>
         <title>Saint-Nazaire</title>
         <titleraw>saint-nazaire</titleraw>
@@ -87,8 +154,10 @@
         <thumb>files/thumbnails/saint-nazaire-thumbnail.jpg</thumb>
         <backgroundcolor></backgroundcolor>
         <theme>dark</theme>
-    </project>
-    <project tags="graphic design">
+		<width>800</width>
+		<date></date>
+    </item>
+    <item type="project" tags="graphic design">
 	    <id>19</id>
         <title>1944 Peleliu battle map</title>
         <titleraw>1944-peleliu-battle-map</titleraw>
@@ -101,8 +170,21 @@
         <thumb>files/thumbnails/peleliu-battle-map-thumbnail.jpg</thumb>
         <backgroundcolor>#FFFFFF</backgroundcolor>
         <theme>light</theme>
-    </project>
-    <project tags="photo,Motion">
+		<width>800</width>
+		<date></date>
+    </item>
+    <item type="text" tags="UI">
+	    <id>26</id>
+        <title>Résolution cible</title>
+        <titleraw>resolution-cible</titleraw>
+        <text>files/resolution_cible.md</text>
+        <thumb>files/thumbnails/text_default.png</thumb>
+		<backgroundcolor></backgroundcolor>
+        <theme>light</theme>
+		<width>600</width>
+		<date></date>
+    </item>
+    <item type="project" tags="photo,Motion">
 	    <id>18</id>
         <title>Beaugrenelle</title>
         <titleraw>beaugrenelle</titleraw>
@@ -118,8 +200,10 @@
         <thumb>files/thumbnails/beaugrenelle-thumbnail.jpg</thumb>
         <backgroundcolor></backgroundcolor>
         <theme>dark</theme>
-    </project>
-    <project tags="illustration">
+		<width>800</width>
+		<date></date>
+    </item>
+    <item type="project" tags="illustration">
 	    <id>17</id>
         <title>Geometric drawings</title>
         <titleraw>geometric-drawings</titleraw>
@@ -135,9 +219,11 @@
         <thumb>files/thumbnails/geometric-thumbnail.jpg</thumb>
         <backgroundcolor></backgroundcolor>
         <theme>dark</theme>
-    </project>
+		<width>800</width>
+		<date></date>
+    </item>
     <!--
-	<project tags="experiments">
+	<item type="project" tags="experiments">
 		<id>16</id>
 		<title>Labo</title>
 		<titleraw>labo</titleraw>
@@ -162,9 +248,10 @@
 		<thumb>files/thumbnails/labo-thumbnail.jpg</thumb>
 	<backgroundcolor></backgroundcolor>
 <theme>dark</theme>
-	</project>
+<width>800</width>
+	</item>
 	-->
-    <project tags="photo">
+    <item type="project" tags="photo">
 	    <id>15</id>
         <title>Playground</title>
         <titleraw>playground</titleraw>
@@ -178,8 +265,10 @@
         <thumb>files/thumbnails/playground-thumbnail.jpg</thumb>
         <backgroundcolor></backgroundcolor>
         <theme>dark</theme>
-    </project>
-    <project tags="photo">
+		<width>800</width>
+		<date></date>
+    </item>
+    <item type="project" tags="photo">
 	    <id>14</id>
         <title>Rien</title>
         <titleraw>rien</titleraw>
@@ -194,8 +283,10 @@
         <thumb>files/thumbnails/rien-thumbnail.jpg</thumb>
         <backgroundcolor></backgroundcolor>
         <theme>dark</theme>
-    </project>
-    <project tags="photo">
+		<width>800</width>
+		<date></date>
+    </item>
+    <item type="project" tags="photo">
 	    <id>13</id>
         <title>Country Roads</title>
         <titleraw>orne</titleraw>
@@ -213,12 +304,14 @@
         <thumb>files/thumbnails/orne-thumbnail.jpg</thumb>
         <backgroundcolor></backgroundcolor>
         <theme>dark</theme>
-    </project>
-    <project tags="photo">
+		<width>800</width>
+		<date></date>
+    </item>
+    <item type="project" tags="photo">
 	    <id>12</id>
         <title>Airfield</title>
         <titleraw>airfield</titleraw>
-        <text><![CDATA[Airfield shots at Bagnoles de l'Orne]]></text>
+        <text><![CDATA[Airfield shots at Bagnoles de l&apos;Orne]]></text>
         <images>
             <image width="800" height="">files/airfield/IMG_8811.jpg</image>
             <image width="800" height="">files/airfield/IMG_8816.jpg</image>
@@ -226,8 +319,10 @@
         <thumb>files/thumbnails/airfield-thumbnail.jpg</thumb>
         <backgroundcolor></backgroundcolor>
         <theme>dark</theme>
-    </project>
-    <project tags="photo">
+		<width>800</width>
+		<date></date>
+    </item>
+    <item type="project" tags="photo">
 	    <id>11</id>
         <title>Buildings</title>
         <titleraw>buildings</titleraw>
@@ -248,9 +343,11 @@
         <thumb>files/thumbnails/buildings-thumbnail.jpg</thumb>
         <backgroundcolor></backgroundcolor>
         <theme>dark</theme>
-    </project>
+		<width>800</width>
+		<date></date>
+    </item>
     <!--
-    <project tags="graphic design">
+    <item type="project" tags="graphic design">
     	<id>10</id>
         <title>Ball Breaking</title>
         <titleraw>ball-breaking</titleraw>
@@ -261,9 +358,11 @@
         <thumb>files/thumbnails/ball-breaking-thumbnail.jpg</thumb>
         <backgroundcolor></backgroundcolor>
         <theme>dark</theme>
-    </project>
+<width>800</width>
+		<date></date>
+    </item>
     -->
-    <project tags="illustration">
+    <item type="project" tags="illustration">
 	    <id>9</id>
         <title>Jour de marché</title>
         <titleraw>jour-de-marche</titleraw>
@@ -274,8 +373,10 @@
         <thumb>files/thumbnails/jour-de-marche-thumbnail.jpg</thumb>
         <backgroundcolor></backgroundcolor>
         <theme>dark</theme>
-    </project>
-    <project tags="photo">
+		<width>800</width>
+		<date></date>
+    </item>
+    <item type="project" tags="photo">
 	    <id>8</id>
         <title>Mobile Home</title>
         <titleraw>mobile-home</titleraw>
@@ -290,8 +391,10 @@
         <thumb>files/thumbnails/mobile-home-thumbnail.jpg</thumb>
         <backgroundcolor></backgroundcolor>
         <theme>dark</theme>
-    </project>
-    <project tags="photo">
+		<width>800</width>
+		<date></date>
+    </item>
+    <item type="project" tags="photo">
 	    <id>7</id>
         <title>Camera</title>
         <titleraw>camera</titleraw>
@@ -302,8 +405,10 @@
         <thumb>files/thumbnails/camera-thumbnail.jpg</thumb>
         <backgroundcolor></backgroundcolor>
         <theme>dark</theme>
-    </project>
-    <project tags="illustration,graphic design">
+		<width>800</width>
+		<date></date>
+    </item>
+    <item type="project" tags="illustration,graphic design">
 	    <id>6</id>
         <title>Mieux</title>
         <titleraw>mieux</titleraw>
@@ -314,8 +419,10 @@
         <thumb>files/thumbnails/mieux-thumbnail.jpg</thumb>
         <backgroundcolor></backgroundcolor>
         <theme>dark</theme>
-    </project>
-    <project tags="photo,illustration">
+		<width>800</width>
+		<date></date>
+    </item>
+    <item type="project" tags="photo,illustration">
 	    <id>5</id>
         <title>Structure</title>
         <titleraw>structure</titleraw>
@@ -326,8 +433,10 @@
         <thumb>files/thumbnails/structure1-thumbnail.jpg</thumb>
         <backgroundcolor></backgroundcolor>
         <theme>dark</theme>
-    </project>
-    <project tags="photo">
+		<width>800</width>
+		<date></date>
+    </item>
+    <item type="project" tags="photo">
 	    <id>4</id>
         <title>People</title>
         <titleraw>people</titleraw>
@@ -343,8 +452,10 @@
         <thumb>files/thumbnails/people-thumbnail.jpg</thumb>
         <backgroundcolor></backgroundcolor>
         <theme>dark</theme>
-    </project>
-    <project tags="illustration">
+		<width>800</width>
+		<date></date>
+    </item>
+    <item type="project" tags="illustration">
 	    <id>3</id>
         <title>CCCC</title>
         <titleraw>ccccc</titleraw>
@@ -355,8 +466,10 @@
         <thumb>files/thumbnails/cccc-thumbnail.jpg</thumb>
         <backgroundcolor></backgroundcolor>
         <theme>dark</theme>
-    </project>
-    <project tags="photo">
+		<width>800</width>
+		<date></date>
+    </item>
+    <item type="project" tags="photo">
 	    <id>2</id>
         <title>Lavomatic</title>
         <titleraw>lavomatic</titleraw>
@@ -371,8 +484,10 @@
         <thumb>files/thumbnails/lavomatic.jpg</thumb>
         <backgroundcolor></backgroundcolor>
         <theme>light</theme>
-    </project>
-    <project tags="illustration,photo">
+		<width>800</width>
+		<date></date>
+    </item>
+    <item type="project" tags="illustration,photo">
 	    <id>1</id>
         <title>Vision urbaine</title>
         <titleraw>vision-urbaine</titleraw>
@@ -383,8 +498,10 @@
         <thumb>files/thumbnails/vision-urbaine-thumbnail.jpg</thumb>
         <backgroundcolor></backgroundcolor>
         <theme>dark</theme>
-    </project>
-    <project tags="illustration">
+		<width>800</width>
+		<date></date>
+    </item>
+    <item type="project" tags="illustration">
 	    <id>0</id>
         <title>Instant polonais</title>
         <titleraw>instant-polonais</titleraw>
@@ -395,5 +512,7 @@
         <thumb>files/thumbnails/instant-polonais-thumbnail.jpg</thumb>
         <backgroundcolor></backgroundcolor>
         <theme>dark</theme>
-    </project>
-</projects>
+		<width>800</width>
+		<date></date>
+    </item>
+</items>

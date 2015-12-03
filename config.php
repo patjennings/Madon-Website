@@ -1,3 +1,3 @@
 <?php
-	$basepath = "http://localhost/madon-2014/";
+	$basepath = "http://localhost/Madon-Website/";
 ?>

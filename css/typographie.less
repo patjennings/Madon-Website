@@ -8,7 +8,7 @@ html {
 }
 body {
   font-size: 1em;
-  font-family: Proxima-Nova, Helvetica, Arial, serif;
+  font-family: Nitti-Normal, Helvetica, Arial, serif;
   line-height: 1.538em;
 }
 
@@ -19,66 +19,60 @@ h2,
 h3,
 h4
 {
-  font-family: Proxima-Nova-Bold, sans-serif;
+  //font-family: Proxima-Nova-Bold, sans-serif;
 }
 h5,
 h6 {
-  font-family: Proxima-Nova, serif;
+  //font-family: Proxima-Nova, serif;
 }
 
 /* 26px interligné à 30px
 /* ---------
 */
 h1 {
-  font-size: 1.2em;
-  line-height: 1.333em;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  font-family: Proxima-Nova,sans-serif;
-  letter-spacing: 0.2em;
+  font-size: 2.25em;
+  line-height: 1.125em;
+  margin-bottom: 0.75em;
+  font-family: Arnhem-Bold,sans-serif;
 }
 
 /* 23px interligné à 30px
 /* ---------
 */
 h2 {
-  font-size: 1.2em;
-  line-height: 1.304em;
-  margin-bottom: @vrythme;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
+  font-size: 1.5em;
+  line-height: 1.125em;
+  font-family: Nitti-Bold, sans-serif;
+  padding-top: 0.6666667em;
+  margin-bottom: 0.666667em;
 }
-
 /* 17px interligné à 20px 
 /* ---------
 */
 
 h3 {
-  font-size: 1.308em;
-  line-height: 1.176em;
-  margin-bottom: 1.176em;
+  font-size: 1.25em;
+  line-height: 1.25em;
+  font-family: Nitti-Bold, sans-serif;
+  padding-top: 1em;
+  margin-bottom: 0.666667em;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
 }
 
 /* 15px interligné à 20px
 /* ---------
 */
-h4 {
-  font-size: 1.154em;
-  line-height: 1.333em;
-  margin-bottom: 1.333em;
+h4, h5, h6 {
+  font-size: 1em;
+  font-family: Nitti-Bold, sans-serif;
+  line-height: 1.25em;
+  padding-top: 1em;
+  margin-bottom: 0.666667em;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
 }
 
-/* 13px interligné à 20px
-/* ---------
-*/
-h5 {
-  font-size: 1em;
-  margin-bottom: 1.538em;
-}
-h6 {
-  font-size: 1em;
-  margin-bottom: 1.538em ;
-}
 h1 img,
 h2 img,
 h3 img,
@@ -90,7 +84,58 @@ h6 img {
 /* Text elements
 -------------------------------------------------------------- */
 p {
-  margin-bottom: 1.538em;
+  font-size: 1.25em;
+  line-height: 1.4em;
+  margin-bottom: 1.2em;
+  font-family: Nitti-Normal, sans-serif;
+}
+hr{
+	width: 100%;
+	margin: 1em auto;
+	border: none;
+	color: inherit;
+}
+hr::after{
+	display: inline-block;
+	content: '•••';
+	color: #a1a1a1;
+	width: 100%;
+	letter-spacing: 1em;
+	text-align: center;
+}
+strong{
+	font-family: Nitti-Bold, sans-serif;
+}
+em{
+	//font-style: italic;
+	font-family: Nitti-Normal;
+}
+u{
+	
+}
+s{
+	
+}
+blockquote{
+	padding-left: 1.5em;
+	margin-top: 1em;
+    margin-bottom: 2.5em;
+    border-left: 4px solid #5a5a5a;
+	display: inline-block;
+	
+	p{margin: 0;}
+}
+pre{
+	font-family: Ubuntu-Mono;
+	padding: 1em;
+	background: #efefef;
+	margin-bottom: 1.5em;
+	border-radius: 4px;
+	
+	code{
+		font-size: 1em;
+		//line-height: 1.4em;
+	}
 }
 /*
   These can be used to pull an image at the start of a paragraph, so
@@ -116,9 +161,15 @@ p .right {
 li ul, li ol {
   margin: 0;
 }
+li{
+  font-size: 1.25em;
+  line-height: 1.3333em;
+  //margin-bottom: 0.88888em;
+  //font-family: Proxima-Nova;
+}
 ul, ol {
   margin: 0 1.5em 1.5em 0;
-  padding-left: 1.5em;
+  padding-left: 0;
 }
 ul {
   list-style-type: disc;
@@ -175,6 +226,16 @@ dd {
 	a:active {
 	  color: @highlightMain;
 	}
+	
+	p{color: @typoSecond;}
+	li{color: @typoSecond;}
+	h1{color: @typoMain;}
+	h2{color: @typoMain;}
+	h3{color: @typoMain;}
+	h4{color: @typoMain;}
+	h5{color: @typoMain;}
+	h6{color: @typoMain;}
+	pre{olor: @typoSecond;}
 }
 .light{
 	::selection {
@@ -196,7 +257,7 @@ dd {
 	}
 	
 	a:link, a:visited {
-	  color: @typoMainLight;
+	  color: @typoSecondLight;
 	  text-decoration: underline;
 	  -webkit-transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
 	  -moz-transition: color 0.1s ease-in-out, background-color 0.1s ease-in-out;
@@ -210,6 +271,16 @@ dd {
 	a:active {
 	  color: @highlightMainLight;
 	}
+	
+	p{color: @typoSecondLight;}
+	li{color: @typoSecondLight;}
+	h1{color: @typoMainLight;}
+	h2{color: @typoMainLight;}
+	h3{color: @typoMainLight;}
+	h4{color: @typoMainLight;}
+	h5{color: @typoMainLight;}
+	h6{color: @typoMainLight;}
+	pre{color: @typoSecondLight;}
 }
 
 
@@ -231,6 +302,8 @@ h6 a:link{
 
 .light{
 	background: @backgroundLight;
+	//background-image: url(assets/24dp_rythm.png);
+	//background-repeat: repeat;
 }
 .dark{
 	background: @background;
@@ -284,30 +357,16 @@ h6 a:link{
 }
 .light .page .node img{
 	background: @highlightMainLight;
+
 }
 
 .light{color: @typoMainLight;}
 .dark{color: @typoMain;}
 
-.dark{
-	p{color: @typoSecond;}
-	h1{color: @typoMain;}
-	h2{color: @typoMain;}
-	h3{color: @typoMain;}
-	h4{color: @typoMain;}
-	h5{color: @typoMain;}
-	h6{color: @typoMain;}
-}
-.light{
-	p{color: @typoSecondLight;}
-	h1{color: @typoMainLight;}
-	h2{color: @typoMainLight;}
-	h3{color: @typoMainLight;}
-	h4{color: @typoMainLight;}
-	h5{color: @typoMainLight;}
-	h6{color: @typoMainLight;}
-}
 
+.type-text .node img{
+	margin-bottom: 1em !important;
+}
 
 
 

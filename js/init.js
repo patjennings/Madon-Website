@@ -18,36 +18,6 @@ $(document).ready(function() {
 	window.onresize = function() {
 		MosaicHandler();
 	}
-	
-	
-	// MixPanel
-	// Liens
-	mixpanel.track_links("#navigation ul li.ui a", "Catégorie UI", {
-        "referrer": document.referrer
-    });
-    mixpanel.track_links("#navigation ul li.graphic_design a", "Catégorie Graphic Design", {
-        "referrer": document.referrer
-    });
-    mixpanel.track_links("#navigation ul li.photo a", "Catégorie Photo", {
-        "referrer": document.referrer
-    });
-    mixpanel.track_links("#navigation ul li.motion a", "Catégorie Motion", {
-        "referrer": document.referrer
-    });
-    mixpanel.track_links("#navigation ul li.illustration a", "Catégorie Illustration", {
-        "referrer": document.referrer
-    });
-    
-    // Mosaïque
-    mixpanel.track_links(".view-mosaic .views-row .views-field .field-content .madon-font", "Madon project", {
-        "referrer": document.referrer
-    });
-    mixpanel.track_links(".view-mosaic .views-row .views-field .field-content .tocoga-touch-control-guitar-amplifier", "Tocoga project", {
-        "referrer": document.referrer
-    });
-    mixpanel.track_links(".view-mosaic .views-row .views-field .field-content .enoch-hardon", "Enoch Hardon", {
-        "referrer": document.referrer
-    });
         
 });
 
