@@ -9,7 +9,7 @@ It is powered with PHP.
 ## Add image-based projects with XML
 
 	<?xml version=« 1.0 » encoding=« UTF-8 »?>
-<items>
+	<items>
 	<item type=« text » tags=« Maps / Data visualisation »>
 	    <id>28</id>
         <title>About</title>
