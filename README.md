@@ -6,6 +6,8 @@ It is powered with PHP.
 
 ## Screenshots
 
+!https://github.com/patjennings/Madon-Website/blob/master/screenshots/thomasguesnon_1.png!
+
 ## Add image-based projects with XML
 
 	<?xml version=« 1.0 » encoding=« UTF-8 »?>
