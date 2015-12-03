@@ -6,7 +6,11 @@ It is powered with PHP.
 
 ## Screenshots
 
-!https://github.com/patjennings/Madon-Website/blob/master/screenshots/thomasguesnon_1.png!
+![](https://github.com/patjennings/Madon-Website/blob/master/screenshots/thomasguesnon_1.png)
+
+![](https://github.com/patjennings/Madon-Website/blob/master/screenshots/thomasguesnon_2.png)
+
+![](https://github.com/patjennings/Madon-Website/blob/master/screenshots/thomasguesnon_3.png)
 
 ## Add image-based projects with XML
 
